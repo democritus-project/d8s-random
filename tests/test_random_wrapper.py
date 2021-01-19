@@ -8,7 +8,7 @@ from democritus_random import (
     random_sample,
     random_choices,
 )
-from maths import permutations
+from democritus_math import permutations
 
 
 def test_random_choices_docs_1():

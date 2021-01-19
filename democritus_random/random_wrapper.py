@@ -1,9 +1,6 @@
-import os
 import random
-import sys
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '.')))
-import decorators
+from .random_wrapper_temp_utils import copy_first_arg
 
 
 def random_number():
@@ -26,7 +23,7 @@ def random_dilbert_integer():
     return 9
 
 
-@decorators.copy_first_arg
+@copy_first_arg
 def random_shuffle(iterable):
     """Shuffle the order of the given iterable."""
     random.shuffle(iterable)

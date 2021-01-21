@@ -1,6 +1,6 @@
 black; python_version > '3.5'
 codecov
-democritus-math @ git+https://github.com/democritus-project/democritus-math.git#egg=democritus-math
+democritus-math
 pytest
 pytest-cov
 twine

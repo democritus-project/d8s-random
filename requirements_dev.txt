@@ -1,6 +1,13 @@
+bandit
 black; python_version > '3.5'
 codecov
-democritus-math
+flake8
+flake8-cognitive-complexity
+ipython
+mypy
+pylint
 pytest
 pytest-cov
-twine
+democritus-math
+democritus_file_system
+democritus_strings

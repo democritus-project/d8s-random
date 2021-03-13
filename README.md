@@ -1,8 +1,8 @@
 # Democritus Random
 
-[![PyPI](https://img.shields.io/pypi/v/democritus-random.svg)](https://pypi.python.org/pypi/democritus-random)
-[![Build Status](https://travis-ci.com/democritus-project/democritus-random.svg?branch=master)](https://travis-ci.com/democritus-project/democritus-random)
-[![codecov](https://codecov.io/gh/democritus-project/democritus-random/branch/master/graph/badge.svg?token=V0WOIXRGMM)](https://codecov.io/gh/democritus-project/democritus-random)
+[![PyPI](https://img.shields.io/pypi/v/d8s-random.svg)](https://pypi.python.org/pypi/d8s-random)
+[![Build Status](https://travis-ci.com/democritus-project/d8s-random.svg?branch=main)](https://travis-ci.com/democritus-project/d8s-random)
+[![codecov](https://codecov.io/gh/democritus-project/d8s-random/branch/main/graph/badge.svg?token=V0WOIXRGMM)](https://codecov.io/gh/democritus-project/d8s-random)
 
 Democritus functions<sup>[1]</sup> for working with random.
 

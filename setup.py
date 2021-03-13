@@ -12,13 +12,13 @@ with open('requirements_dev.txt') as requirements_dev_file:
     test_requirements = requirements_dev_file.read().splitlines()
 
 setup(
-    name='democritus_random',
+    name='d8s_random',
     description="Democritus functions for working with random.",
     long_description=readme,
     long_description_content_type="text/markdown",
     author="Floyd Hightower",
     author_email='floyd.hightower27@gmail.com',
-    url='https://github.com/democritus-project/democritus-random',
+    url='https://github.com/democritus-project/d8s-random',
     use_scm_version=True,
     setup_requires=['setuptools_scm'],
     packages=find_packages(exclude=('tests')),

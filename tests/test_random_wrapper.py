@@ -1,4 +1,4 @@
-from democritus_random import (
+from d8s_random import (
     random_number,
     random_integer,
     random_xkcd_integer,

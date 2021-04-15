@@ -14,9 +14,40 @@ Democritus functions<sup>[1]</sup> for working with random.
 
 We use `d8s` as an abbreviation for `democritus` (you can read more about this [here](https://github.com/democritus-project/roadmap#what-is-d8s)).
 
-## Usage
+## Functions
 
-Coming soon...
+  - ```python
+    def random_number():
+        """Return a random number in range [0.0, 1.0)."""
+    ```
+  - ```python
+    def random_integer(a=0, b=10):
+        """Return a random number between a and b (inclusive)."""
+    ```
+  - ```python
+    def random_xkcd_integer():
+        """Get a random number using the method described here: https://xkcd.com/221/."""
+    ```
+  - ```python
+    def random_dilbert_integer():
+        """Get a random number using the method described here: https://dilbert.com/strip/2001-10-25c."""
+    ```
+  - ```python
+    def random_shuffle(iterable):
+        """Shuffle the order of the given iterable."""
+    ```
+  - ```python
+    def random_choice(iterable):
+        """Return a random item from the iterable."""
+    ```
+  - ```python
+    def random_choices(iterable, n: int):
+        """Return a random item from the iterable."""
+    ```
+  - ```python
+    def random_sample(iterable, n):
+        """Return n items, selected at random, from the iterable."""
+    ```
 
 ## Development
 
